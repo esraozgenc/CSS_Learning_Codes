@@ -1,0 +1,5 @@
+body {background-color:#f2f2f2;display:flex;justify-content: center; align-items: center;height: 100vh;margin: 0;}
+.card {background-color: white;padding: 15px;border-radius: 10px;box-shadow: 0 4px 15px rgb(0,0,0,0.5);text-align: center;width: 250px;}
+.avatar {width:100%;border-radius: 10px;}
+.card h2 {font-size: 20px;color: #333;margin:10px 0;}
+.card p {font-size: 14px;color: #777; margin: 0;}
