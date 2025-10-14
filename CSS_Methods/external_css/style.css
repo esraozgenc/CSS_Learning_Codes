@@ -1,0 +1,4 @@
+.kutu {display:block; background-color: #199dff; border: 10px solid #000/*çizgi stili ve rengi vermezsen çalışmaz.*/;}
+#anaKutu {background-color: #ffff65;}
+p:hover{cursor:pointer; background-color: white; transition: background-color 0.5s ease;} /*hover kullandığın zaman transition kullanabilirsin*/
+p::first-line{font-weight:bold;}
