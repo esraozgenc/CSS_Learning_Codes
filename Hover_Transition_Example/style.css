@@ -1,0 +1,7 @@
+.ortak {border:3px solid #111; padding:3px; margin:10px; font-family: 'Franklin Gothic Medium';transition: transform 0.9s ease;}/*transition kullanımı hover yerine ana seçici de kullanılması daha doğru*/
+.ortak:hover {transform: scale(1.04);}
+div {background-color: #77dae5;}
+a {display:inline-block; background-color: #77dae5; color: black; transition: background-color 0.9s ease;}/*transform sadece block ve inline-block ögelerde çalıştığı için ve içerik kadar yer kaplayabilmesi için displayi inline-block yaptık.*/
+a:hover {background-color:red; color:white;}
+#ozel {background-color: rgb(179, 207, 182); color:rgb(170, 0, 255)}
+
