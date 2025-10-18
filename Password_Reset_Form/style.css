@@ -1,0 +1,9 @@
+* {margin: 10px; font-family: Georgia, 'Times New Roman', Times, serif;}
+h1 {color: rgb(150, 17, 17);}
+form {display:flex; flex-direction:column; max-width:200px; width:100%;}
+label {margin-bottom: 3px; font-weight: bold;}
+input[type="password"] {border: 3px solid rgb(150, 17, 17);}
+button {padding: 10px 20px; font-size: large; cursor: pointer; transition: background-color 0.3s ease, color 0.3s ease;}
+button:hover {background-color: rgb(109, 165, 83); color:white;}
+form ~ p {color:rgb(150, 17, 17);}
+.form-control {padding: 5px;}
